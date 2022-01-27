@@ -543,7 +543,7 @@
             <input class="field" type="tel" id="tel" name="phone" placeholder="Введите Ваш телефон" required="">
             <input class="field" type="text" id="city" name="city" placeholder="Введите Ваш город" required="">
             <input class="field" type="text" id="post" name="post" placeholder="Номер отделения Новой почты" required="">
-            <a href="#" class="button" id="btn" href="./thanks.html">Оформить заказ</a>
+            <a class="button" id="btn" href="thanks.html">Оформить заказ</a>
             <input type="hidden" name="utm" value="">
             <input type="hidden" name="site" value="modernbiz321@gmail.com">
             <input type="hidden" name="price" value="599">
@@ -596,7 +596,7 @@
         const app = initializeApp(firebaseConfig);
         const database = getDatabase(app);
     
-        let first = `Первое худи:${document.getElementById("field1").value}`
+    let first = `Первое худи:${document.getElementById("field1").value}`
     let second = `Второе худи:${document.getElementById("field2").value}`
     let name = `Имя:${document.getElementById("name").value}`
     let tel = `Телефон:${document.getElementById("tel").value}`
